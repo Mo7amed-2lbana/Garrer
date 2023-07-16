@@ -1,6 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+// import bootstrap css file 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import fontawesome css file 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// import myIndex css file 
+import './index.scss';
+
+// import bootstrap js file 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+// import fontawesome js file 
+import '@fortawesome/fontawesome-free/js/all.min.js';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
