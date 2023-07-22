@@ -1,23 +1,14 @@
-import React, { useEffect, useRef, useState } from "react";
-import Loading from "./../Loading/Loading";
-import axios from "axios";
-import { useDispatch } from "react-redux";
-import { incrementValue } from "../../Store/LoadingSlice";
+import React from "react";
+import Footer from "./../Footer/Footer";
 
 export default function Layout() {
-  const dispatch = useDispatch();
-
   // useEffect(() => {
   //   dispatch(incrementValue());
   // }, [!products]);
 
-  return <>
-  
-  
-  
-  
-  
-  
-  
-  </>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }

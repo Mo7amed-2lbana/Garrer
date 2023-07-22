@@ -1,0 +1,64 @@
+@import '../../Styling/variable';
+
+footer{
+    background-color: $third-color;
+    padding: 10px 0;
+   
+    .item{
+        border-left: 1px solid rgba(255,255,255,.1);
+        padding-left: 8px;
+        height: 100%;
+
+        h5{
+
+            border-bottom: 1px solid #7a8599;
+            padding: 5px 0;
+        }
+
+        ul{
+
+            li{
+
+                margin-bottom: 8px;
+
+                a{
+                    position: relative;
+                    font-size: 18px;
+                    border-bottom: 2px solid transparent;
+                    transition: $main-transition;
+                    &:hover{
+                        border-bottom: 2px solid #fff;
+                    }
+                    &:hover svg{
+                        border-bottom: 2px solid transparent;
+                        translate:-5px ;
+                    }
+                    
+                    svg{
+                        font-size: 14px;
+                        margin-right: 5px;
+                        border: none;
+                        transition: $main-transition;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright{
+        background-color: #1F2D3D;
+    }
+
+    .arrow-top{
+        left: 30px;
+        top: 75%;
+        width: 35px ;
+        height: 35px ;
+        border-radius: 50%;
+        transition: $main-transition;
+        cursor: pointer;
+        &:hover{
+            background-color: #d6d6d6!important;
+        }
+    }
+}
