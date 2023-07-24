@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: "Tajawal", sans-serif;
   direction: rtl;
+  box-sizing: border-box;
   // background-color: $third-color;
 
   -webkit-font-smoothing: antialiased;
@@ -13,4 +14,102 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  border: 1px solid black;
+}
+.navbartwo{
+
+  width: 150px;
+  
+}
+.whateee{
+  width: 300px;
+  margin-left: 100px !important;
+}
+.iconone {
+
+  color: red;
+
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.iconnn{
+
+font-size: larger;
+}
+.iconnn:hover{
+
+  color: white;
+color: blue;
+}
+.ahmed{
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+}
+.left{
+
+  padding: 10px;
+}
+.iconshopping{
+
+  font-size: xx-large;
+margin-left: 50px;
+
+}
+.iconshopping:hover{
+
+color: blue;
+border-radius:10px;
+}
+
+.dropdown-toggle:hover{
+  border-radius: 10% !important;
+  border: 1px solid  blue !important;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.dropdown-toggle{
+
+
+  margin-left: 30px !important;
+  margin-right: 20px !important;
+
+
+}
+
+
+
+
+.icontwo{
+color: cadetblue;
+}
+.iconthrees{
+color: brown;
+}
+.iconfour{
+color: chocolate;
+}
+.iconfive{
+color: darkgreen;
+}
+.iconseven{
+color: darkorchid;
+}
+.iconeight{
+color: dodgerblue;
+}
+.iconnine{
+color: darkcyan;
+}
+.iconeleven{
+
+color: crimson;
 }

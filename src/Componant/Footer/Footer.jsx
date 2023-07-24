@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer className="mb-0 position-relative">
-        
+
         {/* links  */}
         <div className="container">
           <div className="row">
@@ -253,7 +253,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         {/* copyright */}
         <div className="copyright">
           <div className="container">
@@ -265,7 +265,7 @@ export default function Footer() {
 
         {/* arrow top  */}
         <div className="arrow-top position-absolute bg-white d-flex justify-content-center align-items-center">
-            <i className="fa fa-angle-up text-dark"></i>
+          <i className="fa fa-angle-up text-dark"></i>
         </div>
       </footer>
     </>
