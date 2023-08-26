@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+.one-md {
+  border-left: 1px solid rgba(0, 0, 0, 0.154);
+}
+
+.div-div-login .button-login {
+  border: 2px solid rgba(0, 0, 0, 0.154);
+  width: 75%;
+  height: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: -1;
+  border: 2px solid #0077DA;
+  color: #0077DA;
+}
+.div-div-login .button-login h3 {
+  font-font-weight: bolder;
+}
+
+.div-hr {
+  height: 1%;
+  width: 2px;
+  background-size: red;
+}
+
+body {
+  margin: 0;
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border: 1px solid black;
+}
+
+.navbartwo {
+  width: 150px;
+}
+
+.whateee {
+  width: 300px;
+  margin-left: 100px !important;
+}
+
+.iconone {
+  color: red;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.iconnn {
+  font-size: larger;
+}
+
+.iconnn:hover {
+  color: white;
+  color: blue;
+}
+
+.ahmed {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.left {
+  padding: 10px;
+}
+
+.iconshopping {
+  font-size: xx-large;
+  margin-left: 50px;
+}
+
+.iconshopping:hover {
+  color: blue;
+  border-radius: 10px;
+}
+
+.dropdown-toggle:hover {
+  border-radius: 10% !important;
+  border: 1px solid blue !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dropdown-toggle {
+  margin-left: 30px !important;
+  margin-right: 20px !important;
+}
+
+.icontwo {
+  color: cadetblue;
+}
+
+.iconthrees {
+  color: brown;
+}
+
+.iconfour {
+  color: chocolate;
+}
+
+.iconfive {
+  color: darkgreen;
+}
+
+.iconseven {
+  color: darkorchid;
+}
+
+.iconeight {
+  color: dodgerblue;
+}
+
+.iconnine {
+  color: darkcyan;
+}
+
+.iconeleven {
+  color: crimson;
+}
+
+.father {
+  background-color: grey;
+}
+.father .child {
+  color: burlywood;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.child1 {
+  background-color: aqua !important;
+}
+
+.child2 {
+  background-color: aqua !important;
+}
+
+.child3 {
+  background-color: aqua !important;
+}
+
+.child4 {
+  background-color: aqua !important;
+}
+
+.child5 {
+  background-color: aqua !important;
+}
+
+.child6 {
+  background-color: aqua !important;
+}
+
+.child7 {
+  background-color: aqua !important;
+}
+
+.one {
+  font-size: 20;
+  color: red;
+}
+
+.two {
+  font-size: 30px;
+  color: green;
+}
+
+.three {
+  font-size: 40px;
+  color: yellow;
+}
+
+.four {
+  font-size: 20;
+  color: orange;
+}/*# sourceMappingURL=index.css.map */

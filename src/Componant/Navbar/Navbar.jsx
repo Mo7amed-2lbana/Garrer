@@ -12,19 +12,19 @@ export default function Navbar() {
   return <>
     <div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid   border">
 
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
             <li class="nav-item  borders">
-              <Link class="nav-link active mt-2" aria-current="page" to="#">
+              <Link class="nav-link active mt-2" aria-current="page" to="/">
                 <i class="fa-solid fa-user iconnn ps-3"></i>ادخل لحسابك او التسجيل الان
               </Link>
             </li>
             <li class="nav-item borders border">
-              <Link class="nav-link active mt-2" aria-current="page" to="#">
+              <Link class="nav-link active mt-2" aria-current="page" to="hamada">
                 <i class="fa-solid fa-heart ps-2 iconnn">
                   
                 </i >
@@ -33,7 +33,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li class="nav-item borders border">
-              <Link class="nav-link active mt-2" aria-current="page" to="#">
+              <Link class="nav-link active mt-2" aria-current="page" to="Mah">
               <i class="fa-solid fa-truck iconnn ps-2"></i>طلباتن الاونلاين</Link>
             </li>
 
