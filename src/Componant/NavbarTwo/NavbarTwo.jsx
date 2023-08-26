@@ -4,8 +4,8 @@ import garrer from "../../Images/مكتبة جرير.png";
 
 export default function NavbarTwo() {
   return <>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-white  ">
+      <div class="container">
         < Link class="navbar-brand" to="#"><img className='navbartwo ' src={garrer} alt="" /></ Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
