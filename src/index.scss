@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 @import './Styling/_variable.scss';
+
+
+@import  '../src/varubls/varr';
+
+@import './Componant/Spninner/spinner.scss';
+@import './login.scss';
+
+
+
+
 body {
   margin: 0;
   font-family: "Tajawal", sans-serif;
@@ -77,12 +87,8 @@ border-radius:10px;
 
 }
 .dropdown-toggle{
-
-
   margin-left: 30px !important;
   margin-right: 20px !important;
-
-
 }
 
 
@@ -112,4 +118,74 @@ color: darkcyan;
 .iconeleven{
 
 color: crimson;
+}
+
+.father{
+
+  background-color: grey;
+
+  .child{
+
+    color: burlywood;
+    margin-top: 10px;
+    text-align: center;
+    // background-color: black;
+    font : {
+     
+      size: 50px;
+   
+    }
+  }
+}
+
+@for $i from 1 through 7 {
+
+  .child#{ $i }{
+background-color: aqua !important;
+
+  }
+}
+
+$fonts :  'one' 20 red ,'two' 30px green , 'three' 40px yellow, 'four' 20 orange ;
+
+@each $class , $size ,$color in $fonts{
+
+  .#{$class}{
+    font-size: $size ;
+    color : $color;
+  }
+}
+
+
+
+
+%classahmed {
+color: red;
+background-color: azure;
+padding: 10px;
+margin: 10px;
+text-align: center;
+
+}
+
+
+
+@mixin trayangel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+} 
+
+@mixin lala( $width){
+
+@include trayangel;
+width: $width;
+height: $width;
+}
+
+@mixin asasas(){
+
+  @include lala(200)
+
 }
