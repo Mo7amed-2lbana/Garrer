@@ -12,14 +12,23 @@ export default function Navbar() {
   return <>
     <div>
     </div>
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg border bg-body-tertiary">
       <div class="container   ">
+=======
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid   border">
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
 
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
             <li class="nav-item  borders">
+<<<<<<< HEAD
               <Link class="nav-link active mt-2" aria-current="page" to="authentication">
+=======
+              <Link class="nav-link active mt-2" aria-current="page" to="/">
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
                 <i class="fa-solid fa-user iconnn ps-3"></i>ادخل لحسابك او التسجيل الان
               </Link>
             </li>

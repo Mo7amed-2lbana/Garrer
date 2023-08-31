@@ -65,7 +65,11 @@ export default function RegisterPro() {
 
 
 
+<<<<<<< HEAD
     return error;
+=======
+    return error
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
   }
 
 
@@ -101,7 +105,11 @@ export default function RegisterPro() {
 
         if (data.message === "success") {
 
+<<<<<<< HEAD
           navagate('/authentication/Login')
+=======
+          navagate('/Login')
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
           setspnnerregister(false)
 
 

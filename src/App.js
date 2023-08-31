@@ -1,9 +1,13 @@
 import React, { Children } from "react";
+<<<<<<< HEAD
 import {
   createBrowserRouter,
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
+=======
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
 import Layout from "./Componant/Layout/Layout";
 import { Provider } from "react-redux";
 import { store } from "./Store/Store";
@@ -13,6 +17,7 @@ import Login from "./Componant/Login/Login";
 import RegisterPro from "./Componant/RegisterPro/RegisterPro";
 import CreateBusinessAccount from "./Componant/Create-business-account/CreateBusinessAccount";
 import Mah from "./Componant/mahmoudnaeim/Mah";
+<<<<<<< HEAD
 import Athuncation from "./Componant/authentication/authentication";
 
 export default function App() {
@@ -47,6 +52,25 @@ export default function App() {
       ],
     },
   ]);
+=======
+
+
+
+export default function App() {
+  const routers = createBrowserRouter([
+    {
+      path: '', element: <Layout />, children: [
+        {path:'/' , element: <Home />, children: [
+            { path: 'registerpro', element: <RegisterPro /> },
+            { path: "Login", element: <Login /> },
+            { path: "CreateBusinessAccount", element: <CreateBusinessAccount /> },
+          ]
+        },
+        { path: 'Hamada', element: <Hamada /> },
+        { path: 'Mah', element: <Mah /> },
+      ]
+    }]);
+>>>>>>> 976fbf78da92f4f0ac446cec09a9f6b4fec511fe
 
   return (
     <>
