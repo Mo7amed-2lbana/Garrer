@@ -41,7 +41,6 @@ export default function App() {
             },
           ],
         },
-        { path: "Hamada", element: <Hamada /> },
       ],
     },
   ]);
